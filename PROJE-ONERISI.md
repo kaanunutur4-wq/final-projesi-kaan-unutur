@@ -1,25 +1,34 @@
-# PROJE ÖNERİSİ: UFC Kural ve Tarihçe Asistanı
 
-**Seçilen Görev Numarası:** SEÇENEK 1 - RAG Tabanlı Uzman Bilgi Asistanı
 
-**Ürünün Adı:** UFC Kural ve Tarihçe Asistanı
 
-**Çözülecek Problem:** Karmaşık Karma Dövüş Sanatları (MMA) kurallarının, güncel puanlama kriterlerinin ve dövüşçü haklarının hızlıca sorgulanamaması; taraftarlar veya spor analistleri tarafından anında teyit edilememesi.
+**Seçilen Görev Numarası:** SEÇENEK 3 - Açıklanabilir Makine Öğrenmesi Karar Destek Ürünü.
 
-**Hedef Kullanıcı:** UFC izleyicileri, spor analistleri, bahis istatistikçileri ve MMA antrenörleri.
 
-**Kullanılacak Veri veya Bilgi Kaynakları:**
-1. UFC Resmi Kurallar Kitapçığı (Unified Rules of MMA)
-2. Hakem Puanlama ve Karar Kriterleri Dokümanı
-3. Anti-Doping (USADA/DFIA) Politikası ve Kuralları
-4. UFC Ağırlık Sınıfları ve Tıbbi Ceza (Medical Suspension) Yönergeleri
-5. Yasaklı Vuruşlar ve Faul Yönetmeliği
+* 
+**Ürünün Adı:** UFC Karşılaşmaları İçin Açıklanabilir Karar Destek ve Tahmin Sistemi.
 
-**Kullanılması Planlanan Teknolojiler:** * Programlama Dili: Java
-* RAG Altyapısı: LangChain4j
-* Vektör Veritabanı: ChromaDB veya benzeri bir yerel çözüm.
-* Arayüz: Temel düzeyde Java (Swing/JavaFX) veya web tabanlı basit bir arayüz.
 
-**Beklenen Ürün Çıktısı:** Kullanıcının doğal dilde sorular sorabildiği (Örn: "12-6 dirsek vuruşları yasal mıdır?"), sadece sisteme yüklenen resmi dokümanları tarayarak cevap veren ve verdiği cevabın hangi dokümandan alındığını açıkça gösteren çalışan bir bilgi asistanı.
+* 
+**Çözülecek Problem:** Profesyonel karma dövüş sanatları (MMA) müsabakalarında, hangi istatistiksel faktörlerin (yaş, boy, uzanma mesafesi, vuruş isabet oranı, takedown savunması vb.) galibiyette daha kritik rol oynadığının net olarak bilinememesi ve sonuca yönelik veriye dayalı öngörü eksikliği.
 
-**Ürünün Diğer Çalışmalardan Ayrılan Yönü:** Genel amaçlı büyük dil modelleri (LLM), spor kuralları hakkında halüsinasyon görüp yanlış veya güncel olmayan bilgiler uydurabilmektedir. Bu asistan, Sektörel YZ (Vertical AI) prensibiyle tasarlanarak sadece sağlanan spesifik dokümanlarla sınırlandırılmış, doğrulanabilir ve kaynak gösteren spesifik bir araç olacaktır.
+
+* 
+**Hedef Kullanıcı:** MMA antrenörleri, spor istatistikçileri, yayıncılar ve müsabaka izleyicileri.
+
+
+* 
+**Kullanılacak Veri Kaynakları:** Kaggle üzerinden temin edilecek "UFC Fight Data" (Dövüşçü ve müsabaka geçmiş istatistikleri) veri seti.
+
+
+* 
+**Kullanılması Planlanan Teknolojiler:** Python (Pandas, Scikit-learn, XGBoost), SHAP (Açıklanabilirlik için), Streamlit (Kullanıcı etkileşimli arayüz için).
+
+
+* **Beklenen Ürün Çıktısı:** Kullanıcının iki dövüşçünün verilerini girebileceği arayüz. Sistem, hangi tarafın maçı kazanma olasılığının daha yüksek olduğunu gösterecek ve en önemlisi SHAP grafikleri ile bu kararın nedenlerini (hangi fiziksel veya teknik avantajın skoru belirlediğini) açıklayacaktır.
+
+
+* 
+**Ürünün Diğer Çalışmalardan Ayrılan Yönü:** Ürün yalnızca salt bir galibiyet-mağlubiyet "tahmini" (kara kutu yaklaşımı) sunmakla kalmayacak; modelin verdiği kararı kullanıcıya görsel olarak açıklayarak (Explainable AI) antrenör veya analistler için gerçek bir karar destek mekanizması olarak çalışacaktır.
+
+
+
