@@ -48,7 +48,8 @@ Açılan tarayıcı penceresinde Kırmızı ve Mavi köşe dövüşçülerine ai
 ## 📸 Örnek Ekran Görüntüleri
 
 **1. Veri Giriş Ekranı:**
-![Veri Giriş Ekranı](images/arayuz1.png.png)
+<img width="988" height="811" alt="image" src="https://github.com/user-attachments/assets/a20581a9-a18a-4fa8-8c07-d1dea99f49ef" />
+
 
 **2. Model Tahmin Sonucu:**
 ![Tahmin Sonucu](images/arayuz2.png.png)
