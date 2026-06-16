@@ -45,9 +45,14 @@ Terminal üzerinden aşağıdaki komutu çalıştırarak web arayüzünü başla
 streamlit run app.py
 ```
 Açılan tarayıcı penceresinde Kırmızı ve Mavi köşe dövüşçülerine ait yaş, boy, uzanma mesafesi ve istatistiksel verileri girerek "Sonucu Tahmin Et" butonuna tıklayınız.
-
 ## 📸 Örnek Ekran Görüntüleri
-*(Buraya arayüzün çalışırken aldığın bir ekran görüntüsünü ekleyebilirsin)*
+
+**1. Veri Giriş Ekranı:**
+![Veri Giriş Ekranı](images/arayuz1.png)
+
+**2. Model Tahmin Sonucu:**
+![Tahmin Sonucu](images/arayuz2.png)
+
 
 ## 📊 Test Sonuçları
 Veri seti üzerinde yapılan testlerde iki model karşılaştırılmıştır:
