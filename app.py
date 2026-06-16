@@ -7,7 +7,7 @@ st.title("🥊 UFC Karar Destek Sistemi")
 st.write("Kırmızı ve Mavi köşe dövüşçülerinin fiziksel ve istatistiksel verilerini girerek maç sonucunu tahmin edin.")
 
 # Kaydettiğimiz modeli yükleme
-model = joblib.load('../data/rf_model.pkl')
+model = joblib.load('data/rf_model.pkl')
 
 # Kullanıcı arayüzünü iki sütuna bölüyoruz
 col1, col2 = st.columns(2)
