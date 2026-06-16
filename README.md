@@ -52,7 +52,8 @@ Açılan tarayıcı penceresinde Kırmızı ve Mavi köşe dövüşçülerine ai
 
 
 **2. Model Tahmin Sonucu:**
-![Tahmin Sonucu](images/arayuz2.png.png)
+<img width="1268" height="855" alt="image" src="https://github.com/user-attachments/assets/7b25e355-aba4-483d-9ad1-a57ef8acc282" />
+
 
 
 ## 📊 Test Sonuçları
