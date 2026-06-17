@@ -48,12 +48,10 @@ Açılan tarayıcı penceresinde Kırmızı ve Mavi köşe dövüşçülerine ai
 ## 📸 Örnek Ekran Görüntüleri
 
 **1. Veri Giriş Ekranı:**
-<img width="988" height="811" alt="image" src="https://github.com/user-attachments/assets/a20581a9-a18a-4fa8-8c07-d1dea99f49ef" />
-
+![Veri Giriş Ekranı](images/arayuz1.png.png)
 
 **2. Model Tahmin Sonucu:**
-<img width="1268" height="855" alt="image" src="https://github.com/user-attachments/assets/7b25e355-aba4-483d-9ad1-a57ef8acc282" />
-
+![Tahmin Sonucu](images/arayuz2.png.png)
 
 
 ## 📊 Test Sonuçları
@@ -73,4 +71,4 @@ Veri seti üzerinde yapılan testlerde iki model karşılaştırılmıştır:
 Bu projenin geliştirilme sürecinde kod hatalarının (syntax error, dosya yolu problemleri vb.) çözümü, SHAP kütüphanesinin projeye entegrasyonu ve veri temizleme adımlarının yapılandırılmasında **Gemini** modelinden destek alınmıştır. Yazılan tüm kodlar tarafımca kontrol edilmiş ve test edilmiştir.
 
 ## 🎥 Proje Tanıtım Videosu
-[Videonun Linki Buraya Eklenecek]
+(https://youtu.be/5KwAJoki9A0)
